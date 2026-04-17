@@ -1,6 +1,6 @@
-# 🛡️ NetScan Pro — Network Security Scanner & Firewall Visualizer
+# 🛡️ NetScan Pro  Network Security Scanner & Firewall Visualizer
 
-A professional-grade **network security tool** built with Python and Streamlit that lets you scan hosts for open ports, analyze service risk, and simulate firewall rule chains — all in a dark-themed, interactive web interface.
+A professional-grade **network security tool** built with Python and Streamlit that lets you scan hosts for open ports, analyze service risk, and simulate firewall rule chains  all in a dark-themed, interactive web interface.
 
 ---
 
