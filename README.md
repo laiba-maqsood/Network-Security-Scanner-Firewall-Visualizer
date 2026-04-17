@@ -121,9 +121,9 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ---
 
-## ⚖️ Legal & Ethical Notice
+##  Legal & Ethical Notice
 
-> ⚠️ **Only scan systems you own or have explicit written permission to test.**
+>  **Only scan systems you own or have explicit written permission to test.**
 >
 > Unauthorized port scanning may violate laws including the Computer Fraud and Abuse Act (CFAA) in the US and similar legislation in other jurisdictions. This tool is intended for:
 > - Learning and educational purposes
@@ -132,7 +132,7 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -144,7 +144,7 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ---
 
-## 🔧 Development Notes
+##  Development Notes
 
 - **No nmap installed?** The app automatically uses a multithreaded Python TCP connect scanner. Only TCP scans are available in fallback mode.
 - **Root access needed?** SYN and UDP scans require elevated privileges. Run with `sudo streamlit run app.py` or use TCP Connect mode.
@@ -152,7 +152,7 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ---
 
-## 📄 License
+##  License
 
 MIT License  free for educational and personal use.
 
