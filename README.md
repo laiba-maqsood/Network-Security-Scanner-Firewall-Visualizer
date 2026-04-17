@@ -4,7 +4,7 @@ A professional-grade **network security tool** built with Python and Streamlit t
 
 ---
 
-## 📸 Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -18,7 +18,7 @@ A professional-grade **network security tool** built with Python and Streamlit t
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -47,7 +47,7 @@ Open your browser to `http://localhost:8501`
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 netscan-pro/
@@ -60,30 +60,30 @@ netscan-pro/
 
 ---
 
-## 🔍 Scanner Details
+##  Scanner Details
 
 ### Scan Types
 | Type | Method | Root Required? |
 |---|---|---|
-| TCP Full Connect | Full 3-way handshake | ❌ No |
-| TCP SYN | Half-open / stealth | ✅ Yes |
-| UDP | Datagram probe | ✅ Yes (recommended) |
-| Comprehensive | SYN + version detection | ✅ Yes |
+| TCP Full Connect | Full 3-way handshake |  No |
+| TCP SYN | Half-open / stealth |  Yes |
+| UDP | Datagram probe |  Yes (recommended) |
+| Comprehensive | SYN + version detection |  Yes |
 
 ### Port Presets
-- **Common Ports** — 30 most important ports
-- **Top 100** — 100 frequently targeted ports
-- **Well-Known (1–1024)** — Full privileged port range
-- **Custom** — Enter your own range (e.g. `80,443,8080` or `1-500`)
+- **Common Ports**  30 most important ports
+- **Top 100**  100 frequently targeted ports
+- **Well-Known (1–1024)**  Full privileged port range
+- **Custom**  Enter your own range (e.g. `80,443,8080` or `1-500`)
 
 ### Vulnerability Rating System
-- 🔴 **Critical** — Exposed service with known severe risk (RDP, VNC, Redis, MongoDB)
-- ⚠️ **Warning** — Elevated risk requiring review (FTP, MySQL, MSSQL, SMB)
-- ✅ **Info** — Best practice notes (HTTPS, SSH hardening)
+-  **Critical**  Exposed service with known severe risk (RDP, VNC, Redis, MongoDB)
+-  **Warning**  Elevated risk requiring review (FTP, MySQL, MSSQL, SMB)
+-  **Info**  Best practice notes (HTTPS, SSH hardening)
 
 ---
 
-## 🔥 Firewall Simulator
+##  Firewall Simulator
 
 ### How Rules Work
 Rules are matched **in priority order** (lowest number = highest priority). The first matching rule wins.
@@ -112,12 +112,12 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
-1. **Port Status Donut** — Open vs Closed/Filtered breakdown
-2. **Firewall Decision Donut** — ALLOWED vs DENIED among open ports
-3. **Risk Map Bar Chart** — Color-coded open ports by risk level
-4. **Traffic Flow Diagram** — Visual node graph of firewall routing decisions
+1. **Port Status Donut**  Open vs Closed/Filtered breakdown
+2. **Firewall Decision Donut**  ALLOWED vs DENIED among open ports
+3. **Risk Map Bar Chart**  Color-coded open ports by risk level
+4. **Traffic Flow Diagram**  Visual node graph of firewall routing decisions
 
 ---
 
@@ -154,8 +154,5 @@ Enter any source IP, destination IP, protocol, and port to simulate a packet tra
 
 ## 📄 License
 
-MIT License — free for educational and personal use.
+MIT License  free for educational and personal use.
 
----
-
-*Built for the Network Security course project. Demonstrates port scanning, service enumeration, firewall rule simulation, and security visualization using Python.*
